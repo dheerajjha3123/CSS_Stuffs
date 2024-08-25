@@ -1,0 +1,46 @@
+.box , .box2{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+
+.box:hover{
+    animation-name: tryanimation;
+    animation-duration: 2s;
+    background-color: aqua;
+}
+
+.box2:hover{
+    animation-name: trydo;
+    animation-duration: 3s;
+    background-color: blue;
+}
+
+@keyframes trydo{
+    from{
+        width: 100px;
+    }
+    to{
+        width: 400px;
+    }
+
+}
+
+
+@keyframes tryanimation {
+    from{
+        width: 100px;
+    }
+    to{
+        width: 500px;
+    }
+    from{
+        width: 100px;
+    }
+    to{
+        width: 400px;
+    }
+    
+}

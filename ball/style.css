@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ball{
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+    border: 5px solid brown;
+    background-color: aqua;
+    border-radius: 50%;
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+
+
+@keyframes bounce{
+    0%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(500px);
+    }
+}

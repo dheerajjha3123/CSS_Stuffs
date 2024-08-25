@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.load{
+    height: 100px;
+    width: 100px;
+    border-top: 10px solid rgb(51, 51, 241);
+    border-bottom: 10px solid rgb(83, 218, 83);
+    border-left: 10px solid rgb(33, 170, 204);
+    border-right: 10px solid rgb(236, 217, 38);
+    border-radius: 50%;
+    margin: 20px auto;
+    animation-name: loading;
+    animation-iteration-count: infinite;
+    animation-duration: 800ms;
+    animation-timing-function: linear;
+}
+
+@keyframes loading{
+    100%{
+        transform: rotate(360deg);
+    }
+}
