@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    height: 90vh;
+    width: 90vh;
+    margin: 20px auto;
+
+    display: grid;
+    grid-column: 200px;
+    grid-row: 500px;
+
+}
+.child{
+    border: 5px solid blue;
+    background-color: aqua;
+}
